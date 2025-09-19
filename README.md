@@ -48,7 +48,6 @@ Press Enter to continue...
 
 ## Requirements
 - Go 1.13 or higher
-- Compatible operating system (Windows, Linux, macOS)
 
 ## License
 This project is for educational purposes only.
