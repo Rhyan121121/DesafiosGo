@@ -1,20 +1,21 @@
-# Go Challenge: Temperature Converter
+# Go Challenges
 
-This project is a Go program that performs temperature conversions between Celsius, Fahrenheit, and Kelvin scales. The user can choose the input scale and get the converted values in the other two scales.
+This repository contains Go programs that solve different programming challenges. Each challenge is implemented in its own file or folder. Below are the available challenges and instructions for running them.
 
-## How to run
+## Challenge 1: Temperature Converter
+
+A Go program that performs temperature conversions between Celsius, Fahrenheit, and Kelvin scales. The user chooses the input scale and gets the converted values in the other two scales.
+
+**How to run:**
 
 1. Make sure you have Go installed on your system.
-2. In the terminal, navigate to the project directory.
+2. In the terminal, navigate to the `Challenge1` directory.
 3. Run the command:
+   ```bash
+   go run ConversionChallenge.go
+   ```
 
-```bash
-go run ConversionChallenge.go
-```
-
-## How to use
-
-When you start the program, follow the instructions:
+**How to use:**
 - Choose the input temperature scale:
   - 1 for Celsius
   - 2 for Fahrenheit
@@ -24,27 +25,29 @@ When you start the program, follow the instructions:
 - The program will show the conversions to the other scales.
 - Press Enter to continue or choose to exit.
 
-## Example of use
+## Challenge 2: Divisibles By 3
 
-```
-Enter the scale do you want to use to convert the others (1-Celsius, 2-Fahrenheit, 3-Kelvin, 4- Leave):
-1
-Enter the temperature of water:
-100
-The temperature of water is:ºC100
-This temperature in Fahrenheit is:ºF212
-This temperature in Kelvin is :ºK373.15
-Press Enter to continue...
-```
+A Go program that prints all numbers between 1 and 100 that are divisible by 3.
 
-## Code structure
+**How to run:**
 
-- Functions for conversion between temperature scales:
-  - Celsius to Fahrenheit/Kelvin
-  - Fahrenheit to Celsius/Kelvin
-  - Kelvin to Celsius/Fahrenheit
-- Utility functions to clear the screen and pause execution.
-- Main loop for user interaction.
+1. Navigate to the `Challenges2` directory.
+2. Run the command:
+   ```bash
+   go run DivisiblesBy3.go
+   ```
+
+## Challenge 2: PinPan
+
+A Go program that prints numbers from 1 to 100, but prints "Pin" for numbers divisible by 3, "Pan" for numbers divisible by 5, and the number itself otherwise.
+
+**How to run:**
+
+1. Navigate to the `Challenges2` directory.
+2. Run the command:
+   ```bash
+   go run PinPan.go
+   ```
 
 ## Requirements
 - Go 1.13 or higher
