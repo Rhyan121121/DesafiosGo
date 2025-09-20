@@ -22,10 +22,9 @@ func ClearScreen() {
 }
 func PauseScreen() {
 	fmt.Println("Press Enter to continue...")
-	// Cria um novo leitor para a entrada padrão (teclado).
+
 	reader := bufio.NewReader(os.Stdin)
-	// ReadString('\n') lê a entrada do usuário até encontrar uma quebra de linha.
-	// O valor retornado é ignorado, já que só precisamos que a leitura aconteça.
+
 	reader.ReadString('\n')
 }
 
