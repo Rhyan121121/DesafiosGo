@@ -49,6 +49,18 @@ A Go program that prints numbers from 1 to 100, but prints "Pin" for numbers div
    go run PinPan.go
    ```
 
+## Challenge 3: PingPong
+
+A Go program that uses goroutines and channels to alternately print "ping" and "pong" every 2 seconds.
+
+**How to run:**
+
+1. Navigate to the `Challenge3` directory.
+2. Run the command:
+   ```bash
+   go run PingPong.go
+   ```
+
 ## Requirements
 - Go 1.13 or higher
 
